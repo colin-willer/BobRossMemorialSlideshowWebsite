@@ -4,6 +4,7 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/style.css">
       <title>Bob Ross Memorial Slideshow</title>
    </head>
@@ -11,21 +12,22 @@
       <!-- Add loop as an attribute if we want the video to loop for viewing at the ceremony -->
       <!-- Add muted as an attribute if we don't want the sound to play for the viewing -->
       <!-- width="320" height="180" for smaller screens?-->
-      <br>
       <div id="header" class="container">
-         <h1>Robert L. Ross Memorial Website</h1>
-         <h3>December 16, 1938 - June 13, 2020</h3>
-         <div id="headshot-image">
-            <img src="media/headshot.jpg" alt="Robert Lee Ross Headshot">
+         <div class="container-color">
+            <div class="container-content">
+               <h1>Robert L. Ross Memorial Website</h1>
+               <h3>December 16, 1938 - June 13, 2020</h3>
+               <div id="headshot-image">
+                  <img src="media/headshot.jpg" alt="Robert Lee Ross Headshot">
+               </div>
+               <p><a href="https://www.pagenkopf.com/obituaries/Robert--Lee-Ross?obId=15063755#/obituaryInfo" target="_blank">Click here</a> to read the obiturary</p>   
+               <div class="video-container">
+                  <video src="media/slideshow.mp4" width="896" height="504" controls="true" poster="media/poster.jpg" playsinline webkit-playsinline preload="none" style="object-fit: contain;" ></video>
+               </div>
+               <p id="disclaimer">***Video may take an extended period of time to load on mobile devices</p>
+               <br>
+            </div>
          </div>
-         <p><a href="https://www.pagenkopf.com/obituaries/Robert--Lee-Ross?obId=15063755#/obituaryInfo" target="_blank">Click here</a> to read the obiturary</p>   
-         <br>
-         <div class="video-container">
-            <video src="media/slideshow.mp4" width="896" height="504" controls="true" poster="media/poster.jpg" playsinline webkit-playsinline preload="none" style="object-fit: contain;" ></video>
-         </div>
-         <p id="disclaimer">***Video may take an extended period of time to load on mobile devices</p>
-         <br>
       </div>
-
    </body>
 </html>
