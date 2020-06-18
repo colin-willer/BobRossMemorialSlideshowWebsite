@@ -106,12 +106,12 @@ a {
 }
 
 @media (max-width: 768px) {
-	#disclaimer {
+	/* #disclaimer {
 		margin-top: 0.5rem;
 		display: block;
 		color: red;
 		font-size: 1rem;
-	}
+	} */
 
 	.container {
 		padding-top: 0;
@@ -120,12 +120,12 @@ a {
 }
 
 @media (max-width: 500px) {
-	#disclaimer {
+	/* #disclaimer {
 		margin-top: 0.5rem;
 		display: block;
 		color: red;
 		font-size: 0.8rem;
-	}
+	} */
 
 	.container {
 		padding-top: 0;
@@ -133,7 +133,7 @@ a {
 	}
 
 	h1 {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 	}
 
 	h3 {
@@ -141,6 +141,15 @@ a {
 	}
 
 	p {
-		font-size: 0.9rem;
+		padding-top: 0.5rem;
+		font-size: 0.8rem;
+	}
+
+	img {
+		margin-bottom: 0;
+	}
+
+	.video-container {
+		padding-top: 0;
 	}
 }
